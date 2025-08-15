@@ -1,0 +1,75 @@
+Traceback (most recent call last):
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 198, in <module>
+    asyncio.run(scrape_and_append())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 107, in scrape_and_append
+    client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/client/telegrambaseclient.py", line 290, in __init__
+    session = SQLiteSession(str(session))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 47, in __init__
+    c = self._cursor()
+        ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 242, in _cursor
+    self._conn = sqlite3.connect(self.filename,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 198, in <module>
+    asyncio.run(scrape_and_append())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 107, in scrape_and_append
+    client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/client/telegrambaseclient.py", line 290, in __init__
+    session = SQLiteSession(str(session))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 47, in __init__
+    c = self._cursor()
+        ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 242, in _cursor
+    self._conn = sqlite3.connect(self.filename,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+Traceback (most recent call last):
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 198, in <module>
+    asyncio.run(scrape_and_append())
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/willkannegieser/telegram-crypto-bot/tg_to_sheets_local.py", line 107, in scrape_and_append
+    client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/client/telegrambaseclient.py", line 290, in __init__
+    session = SQLiteSession(str(session))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 47, in __init__
+    c = self._cursor()
+        ^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/telethon/sessions/sqlite.py", line 242, in _cursor
+    self._conn = sqlite3.connect(self.filename,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
